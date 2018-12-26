@@ -1,0 +1,65 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.chip {
+    display: inline-block;
+    padding: 0 20px;
+    height: 45px;
+    font-size: 12px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+</style>
+<div class="col-box col-box-author">
+  <img class="avatar" src="{{ site.avatar }}" alt="{{ site.author }}">
+  <div class="col-box-title name">{{ site.author }}</div>
+  <p>{{ site.profile }}</p>
+  <p class="contact">
+    {% if site.github_username %}
+    <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+    {% endif %}
+    {% if site.twitter_username %}
+    <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
+    {% endif %}
+    {% for link in site.profile_links %}
+    <a href="{{ link | last }}">{{ link | first }}</a>
+    {% endfor %}
+  </p>
+</div>
+
+<div class="col-box post-toc hide">
+  <div class="col-box-title">TOC/OUTLINE</div>
+</div>
+
+<div class="col-box">
+  <div class="col-box-title">Newest Posts</div>
+  <ul class="post-list">
+    {% for post in site.posts limit:5 %}
+      <li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+
+<div class="col-box">
+  <div class="col-box-title">Contributors Board</div>
+    <div class="chip">
+      <img src="{{ site.avatar }}" alt="Person" width="96" height="96">
+      <a href="https://github.com/{{ site.github_username }}" target="_blank">Honey Sharma</a>
+    </div>
+    <div class="chip">
+      <img src="https://avatars0.githubusercontent.com/u/20278681?s=460&v=4" alt="Person" width="96" height="96">
+      <a href="https://github.com/kaus2595" target="_blank">Kaustubh Rai</a>
+    </div>
+</div>
+<div>
+  {% include subscription-form.html %}
+</div>

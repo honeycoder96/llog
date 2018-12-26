@@ -1,0 +1,61 @@
+# Site settings
+title: TechbMe Blog
+email: honey.singhroi@gmail.com
+url: "http://honeycoder96.github.io"     #the protocol and hostname of your site, eg. `http://laobubu.github.io`
+baseurl: "/jekyll-theme-EasyBook" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
+#timezone: Asia/Chongqing
+description: >
+  One or more sentences introducing this blog.
+
+# Your information
+email: honey.singhroi@gmail.com
+author: Honey Sharma
+avatar: https://image.ibb.co/hZRS79/muphoto.jpg
+profile: One sentence introducing yourself.
+#twitter_username: twitter_username
+github_username:  honeycoder96
+profile_links:
+  Email: "mailto:honey.singhroi@gmail.com"
+  Portfolio: "https://honeysharma.me"
+  # You can add more profile links above, or edit _includes/sidebar.html 
+
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+disqus_shortname: techbme
+#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
+
+excerpt_separator: <!--more-->
+
+header:
+  links:             # Links on the header. Link to in-site page with a slash as prefix
+    About: /about/
+    Category: /category/
+    Contact: /contact/
+    Contribute: /contribute/
+
+permalink: /archivers/:title
+plugins:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
+
+# Build settings
+paginate: 5
+paginate_path: "page:num"
+
+highlighter: rouge
+markdown: kramdown
+
+# https://jekyllrb.com/docs/configuration/#precedence
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  math_engine: mathjax
