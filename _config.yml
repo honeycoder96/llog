@@ -1,8 +1,8 @@
 # Site settings
-title: TechbMe Blog
+title: Llog
 email: honey.singhroi@gmail.com
 url: "http://honeycoder96.github.io"     #the protocol and hostname of your site, eg. `http://laobubu.github.io`
-baseurl: "/jekyll-theme-EasyBook" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
+baseurl: "/llog" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
 #timezone: Asia/Chongqing
 description: >
   One or more sentences introducing this blog.
