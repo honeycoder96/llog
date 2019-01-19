@@ -1,10 +1,11 @@
 # Llog
+[visit website](https://honeycoder96.github.io/llog/)
 
 ## Features
 
 - Everything Basic Jekyll has.
 - **Pagination** is enabled.
-- **Comments** using Disqus or 多说.
+- **Comments** using Disqus 
 - **TOC** makes reading easier.
 - **Profile** including your links and avatar on the sidebar.
 - *And more...*
@@ -13,10 +14,8 @@
 
 Read [Quick Guide] to learn how to install and publish.
 
-Read [Welcome to Jekyll and EasyBook][helloPost] and [Jekyll][jekyll] for further information.
-
 ## Demo
-
+![visit website](https://honeycoder96.github.io/llog/)
 ![Homepage](https://ooo.0o0.ooo/2016/02/11/56bc997c65daf.png)
 
 ## License
