@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll and EasyBook"
+title:  "Getting Started"
 date:   2014-12-30 09:00:13
 by: "Honey Sharma"
-categories: jekyll update
+categories: MarkDown
 permalink: /archivers/hello
 ---
 
