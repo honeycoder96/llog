@@ -31,7 +31,7 @@ header:
     About: /about/
     Category: /category/
     Contact: /contact/
-    Contribute: /contribute/
+    #Contribute: /contribute/
 
 permalink: /archivers/:title
 plugins:
