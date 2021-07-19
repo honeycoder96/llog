@@ -89,7 +89,7 @@ input[type=text]:focus {
 
 <div class="home">
   <h1 class="page-heading">Category</h1>
-  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for category.." title="Type in a category">
+  <!-- <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for category.." title="Type in a category"> -->
   <ul class="post-list">
 
 {% capture categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}

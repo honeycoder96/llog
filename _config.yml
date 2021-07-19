@@ -5,18 +5,18 @@ url: "http://honeycoder96.github.io"     #the protocol and hostname of your site
 baseurl: "/llog" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
 #timezone: Asia/Chongqing
 description: >
-  Aspiring Software Developer and and an open source enthusiast currently expanding my horizon in Machine Learning.
+  Full Stack JavaScript Developer
 
 # Your information
 email: honey.singhroi@gmail.com
 author: Honey Sharma
 avatar: https://avatars3.githubusercontent.com/u/23560854?s=460&u=bcc233596be863507c290901bacbd5b07c5f27eb&v=4
-profile: One sentence introducing yourself.
+profile: Full Stack JavaScript Developer
 #twitter_username: twitter_username
 github_username:  honeycoder96
 profile_links:
   Email: "mailto:honey.singhroi@gmail.com"
-  Portfolio: "https://honeysharma.me"
+  Portfolio: "https://honeysharma.xyz"
   # You can add more profile links above, or edit _includes/sidebar.html 
 
 # Comment Service (Disqus or 多说)
@@ -28,7 +28,7 @@ excerpt_separator: <!--more-->
 
 header:
   links:             # Links on the header. Link to in-site page with a slash as prefix
-    About: /about/
+    # About: /about/
     Category: /category/
     Contact: /contact/
     #Contribute: /contribute/
@@ -40,7 +40,7 @@ plugins:
  - jemoji
 
 # Build settings
-paginate: 5
+paginate: 10
 paginate_path: "page:num"
 
 highlighter: rouge

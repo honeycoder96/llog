@@ -16,7 +16,6 @@ Read [Quick Guide] to learn how to install and publish.
 
 ## Demo
 ![visit website](https://honeycoder96.github.io/llog/)
-![Homepage](https://ooo.0o0.ooo/2016/02/11/56bc997c65daf.png)
 
 ## License
 
